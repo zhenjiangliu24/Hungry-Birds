@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup2">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Hungry Birds"/>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[400, 400]"/>
+    </Property>
+    <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[500, 800]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,3,32,0,0,2,42"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+    <Property name="columns" type="int" value="0"/>
+    <Property name="rows" type="int" value="3"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="ChessBoard">
+      <Properties>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[200, 200]"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+        <Property name="columns" type="int" value="9"/>
+        <Property name="rows" type="int" value="8"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="A8_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A8"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="B8_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="B8"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="C8_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C8"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="D8_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="D8"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="E8_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="E8"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="F8_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="F8"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="G8_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="G8"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="H8_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="H8"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="markLabel8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="8"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="A7_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A7"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="B7_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="B7"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="C7_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C7"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="D7_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="D7"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="E7_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="E7"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="F7_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="F7"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="G7_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="G7"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="H7_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="H7"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="markLabel7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="7"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="A6_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A6"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="B6_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="B6"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="C6_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C6"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="D6_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="D6"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="E6_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="E6"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="F6_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="F6"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="G6_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="G6"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="H6_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="H6"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="markLabel6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="6"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="A5_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="B5_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="B5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="C5_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="D5_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="D5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="E5_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="E5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="F5_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="F5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="G5_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="G5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="H5_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="H5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="markLabel5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="A4_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="B4_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="B4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="C4_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="D4_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="D4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="E4_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="E4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="F4_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="F4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="G4_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="G4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="H4_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="H4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="markLabel4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="A3_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="B3_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="B3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="C3_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="D3_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="D3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="E3_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="E3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="F3_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="F3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="G3_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="G3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="H3_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="H3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="markLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="A2_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="B2_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="B2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="C2_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="D2_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="D2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="E2_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="E2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="F2_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="F2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="G2_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="G2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="H2_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="H2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="markLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="A1_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="B1_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="B1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="C1_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="D1_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="D1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="E1_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="E1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="F1_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="F1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="G1_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="G1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="H1_position">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="H1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="markLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="1"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="MessagePanel">
+      <Properties>
+        <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[0, 100]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="PlayerBirdsRadio" min="-2" max="-2" attributes="0"/>
+                      <Component id="PlayerLarvaRadio" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="TwoPlayerSelection" min="-2" max="-2" attributes="0"/>
+                              <Component id="OnePlayerSelection" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                          <Component id="startGameButton" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="newGameButton" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="88" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                          <Component id="TwoPlayerSelection" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="OnePlayerSelection" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="startGameButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newGameButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="PlayerLarvaRadio" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="PlayerBirdsRadio" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="72" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="startGameButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Start Game"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="startGameButtonMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="TwoPlayerSelection">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Two players"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TwoPlayerSelectionActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="OnePlayerSelection">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="One player"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="OnePlayerSelectionActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="newGameButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="New Game"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="newGameButtonMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="PlayerLarvaRadio">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup2"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Player be Larva"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="PlayerBirdsRadio">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup2"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Player be Birds"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PlayerBirdsRadioActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="ControlPanel">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+        <Property name="columns" type="int" value="2"/>
+        <Property name="rows" type="int" value="1"/>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="Player1ControlPanel">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Player1FromLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Player1ToLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Player1MoveButton" min="-2" max="-2" attributes="0"/>
+                          <Component id="Player1Title" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="Player1FromTextField" pref="143" max="32767" attributes="0"/>
+                              <Component id="Player1ToTextField" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="Player1Title" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Player1FromLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Player1FromTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Player1ToLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Player1ToTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="Player1MoveButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="Player1Title">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Player 1 Lava"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Player1FromLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="From:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="Player1FromTextField">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Player1FromTextFieldActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Player1ToLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="To:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="Player1ToTextField">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Player1ToTextFieldActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="Player1MoveButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Move"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Player1MoveButtonMouseClicked"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="Player2ControlPanel">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Player2ToLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Player2FromLabel" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Player2MoveButton" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Player2ToTextField" min="-2" pref="125" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Component id="Player2Title" min="-2" max="-2" attributes="0"/>
+                              <Component id="Player2FromTextField" min="-2" pref="125" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="61" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Component id="Player2Title" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Player2FromTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Player2FromLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Player2ToLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Player2ToTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Component id="Player2MoveButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="101" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="Player2Title">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Player 2 Birds"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Player2FromLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="From:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="Player2FromTextField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="Player2ToLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="To:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="Player2ToTextField">
+            </Component>
+            <Component class="javax.swing.JButton" name="Player2MoveButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Move"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Player2MoveButtonMouseClicked"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

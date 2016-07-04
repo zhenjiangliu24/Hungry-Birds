@@ -1,0 +1,8 @@
+Open the Hungry birds folder and under the path Hungry birds/src/HungryBirds/
+find the file named:HungryBirds.java.
+Run the HungryBirds.java.
+Select the play mode of the game. Since it is deliverable one, you can only select the "Two players" mode.
+Then press the "Start game" button.
+Player one is Lava that is on the left side, player two are four birds on the right side.
+Input the current location of a piece and input its next position you want to move to.
+Press the "Move" button.
